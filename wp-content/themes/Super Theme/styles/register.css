@@ -1,0 +1,30 @@
+#form_wrapper {
+    width: 100%;
+    margin-top: 30px;
+}
+
+#register_form {
+    background: #cccccc;
+    border-radius: 10px;
+    clear: both;
+    width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.text_input {
+    border-radius: 5px;
+    height: 20px;
+}
+
+.reg_submit {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.reg_submit:hover {
+    background-color: red;
+}

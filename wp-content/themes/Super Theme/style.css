@@ -1,0 +1,106 @@
+/*
+Theme Name: Super Theme
+Theme URI: http://wjaz.pl
+Description: Super Wordpress Theme
+Version: 1
+Author: wjazgara
+Author URI: http://wjaz.pl
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    min-height: 100%;
+}
+
+#container {
+    min-height: 100%;
+}
+
+#header_banner {
+    background: black;
+    color: white;
+    height: 70px;
+    line-height: 20px;
+    font-size: 20px;
+    text-align: center;
+    width: 80%;
+    float: left;
+}
+
+#user_links {
+    width: 20%;
+    float: right;
+    background-color: black;
+    height: 70px;
+}
+
+#links_wrap {
+    clear: both;
+    height: 70px;
+    overflow: hidden;
+    padding-top: 15px;
+}
+
+#clear_float, #clear_div {
+    clear: both;
+}
+
+#nav {
+    width: 20%;
+    float: right;
+    background-color: beige;
+    min-height: 100%;
+}
+
+#main {
+    width: 80%;
+    float: left;
+    background-color: beige;
+    min-height: 100%;
+}
+
+a.home_page {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    font-family: monospace;
+    font-size: 30px;
+}
+
+a.home_page:hover {
+    color: orange;
+}
+
+a.action_link {
+    clear: both;
+    text-decoration: none;
+    background: orange;
+    border: none;
+    color: black;
+}
+
+a.action_link:hover {
+    background: white;
+    color: orange;
+}
+
+//add post link on main site
+a.add_post_link {
+    float: right;
+    background-color: black;
+    border: none;
+    padding: 6px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#footer {
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,100 @@
+/*
+Theme Name: WJ Theme
+WJ Sample Blog
+Author: WJ
+Author URI: http://www.wjaz.pl
+Description: testowy motyw stworzony do szkolenia na temat wordpressa
+Version: 1.0
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ol {
+    padding-left: 25px;
+}
+
+body {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#main_header {
+    width: 100%;
+}
+
+#banner {
+    width: 100%;
+    height: auto;
+    margin: 20px 0 20px 0;
+}
+
+#header_banner {
+    float: left;
+    width: 80%;
+    background: black;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+#header_links_wrap {
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+
+.header_links {
+    text-decoration: none;
+    color: white;
+    background: grey;
+    border-radius: 5px;
+    padding: 2px;
+    margin-bottom: 10px;
+    
+}
+
+#header_ad {
+    clear: both;
+    width: 728px;
+    height: 90px;
+    background: grey;
+    margin: 20px auto 20px auto;
+}
+
+#header_msg {
+    width: 100%;
+    background: black;
+    color: white;
+    margin: 20px 0;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+#content {
+    width: 70%;
+}
+
+#sidebar {
+    float: right;
+    width: 30%;
+    text-align: center;
+}
+
+#footer {
+    width: 100%;
+    clear: both;
+    background: black;
+    color: white;
+}
+
+#add_post_btn {
+    float: right;
+    width: 150px;
+    height: 50px;
+    margin-bottom: 50px;
+}

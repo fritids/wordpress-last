@@ -1,0 +1,36 @@
+#post_page_wrapper {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#add_post_wrapper {
+    margin-top: 20px;
+    text-align: left;
+    width: 700px;
+    background: #cccccc;
+    padding: 20px 40px 20px 40px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+.text_input {
+    width: 100%;
+}
+
+textarea {
+    margin-bottom: 10px;
+    resize: none;
+    height: 100px;
+}
+
+#post_submit {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 6px;
+}
+
+#post_submit:hover {
+    background-color: red;
+}

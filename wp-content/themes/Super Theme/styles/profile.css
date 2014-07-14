@@ -1,0 +1,60 @@
+#profile_wrapper {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#profile_wrapper h2 {
+    text-align: center;
+}
+
+img.avatar {
+    float: left;
+    margin-right: 10px;
+}
+
+.clear_div {
+    clear: both;
+}
+
+#profile_wrapper a {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border-radius: 2px;
+    padding: 3px;
+}
+
+#profile_wrapper a:hover {
+    background-color: red;
+}
+
+#profile_data {
+    overflow: hidden;
+    width: 400px;
+    padding: 20px 50px 20px 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 2px solid black;
+}
+
+#profile_data p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+#profile_settings {
+    float: right; 
+}
+
+#profile_login {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#profile_options {
+    float: right;
+}
+
+#profile_inner {
+    display: inline-block;
+}
