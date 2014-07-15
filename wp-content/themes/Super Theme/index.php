@@ -6,6 +6,24 @@ get_sidebar();
 
 ?>
 
+<?php 
+if(is_home()) {
+  $path = get_stylesheet_directory() . "/helpers/get_admin_msg.php";
+  require_once($path);
+  $data = get_admin_msg();
+  
+  if ( $data!=0 ) {
+      echo "<div id='messages_div'>";
+      foreach($data as $msg) {
+          echo "<div class='sigle_message'>";
+          echo "<p>" . $msg['ID']. ". " . $msg['Content'] . "</p>";
+          echo "</div>";          
+      }
+      echo "</div>";
+  }
+}
+
+?>
 <div id="main">
     <?php $args = array(
         'numberposts' => 10,

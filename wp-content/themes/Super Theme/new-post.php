@@ -5,7 +5,7 @@ Template Name: New post page
 
 get_header();
 
-if(!isset($_POST['save'])) {
+if(!isset($_POST['save']) && is_user_logged_in()) {
 ?>
 <div id="post_page_wrapper">
     <h2><?php the_title(); ?></h2>
@@ -52,7 +52,11 @@ if(!isset($_POST['save'])) {
     </div>
 </div>
 <?php
-} else {
+} else { 
+    echo "<h2>Zaloguj się, aby dodawać posty </h2>";
+}
+
+if(isset($_POST['save'])) {
     if(
         (!isset($_POST['title'], $_POST['content'], $_POST['tag1'], $_POST['tag2'], $_POST['tag3'], $_POST['source'], $_POST['expires']))
             && ((!isset($_POST['link'])) || (!isset($_POST['issue'], $_POST['paper_title'])))) {
