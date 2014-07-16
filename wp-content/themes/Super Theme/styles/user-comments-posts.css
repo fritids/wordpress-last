@@ -1,0 +1,45 @@
+#user_comments_wrapper, #user_posts_wrapper {
+    text-align: center;
+}
+
+#inner_comments_wrapper, #inner_posts_wrapper {
+    max-width: 80%;
+    margin: 20px 0;
+    padding: 20px;
+    text-align: left;
+    display: inline-block;
+    background: #cccccc;
+}
+
+h2#user_comments_title, h2#user_posts_title {
+    margin: 10px 0 20px 0;
+}
+
+div.single_user_comment, div.single_user_post {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #eeeeee;
+}
+
+div.user_comment_content, div.user_post_content {
+    margin-top: 5px;
+}
+
+.post_actions {
+    margin-top: 10px;
+    text-align: right;
+}
+
+.post_actions a {
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+.post_actions a:hover {
+    background-color: red; 
+}

@@ -45,13 +45,13 @@ if(is_user_logged_in()) {
             <p>Płeć: <?php  echo $gender; ?></p>
             <p>Wiek: <?php echo $age; ?></p>
             <div class="clear_div"></div>
-            <a href="#" id="profile_settings">Ustawienia profilu</a>
+            <a href="http://localhost/wordpress/?page_id=53" id="profile_settings">Ustawienia profilu</a>
         </div>
 
         <div id="profile_options">
-            <a href="#">Moje posty</a>
-            <a href="#">Dodaj post</a>
-            <a href="#">Moje komentarze</a>
+            <a href="http://localhost/wordpress/?page_id=50">Moje posty</a>
+            <a href="http://localhost/wordpress/?page_id=42">Dodaj post</a>
+            <a href="http://localhost/wordpress/?page_id=47">Moje komentarze</a>
         </div>
     </div>
 </div>

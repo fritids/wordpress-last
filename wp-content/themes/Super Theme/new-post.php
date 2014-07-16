@@ -52,7 +52,8 @@ if(!isset($_POST['save']) && is_user_logged_in()) {
     </div>
 </div>
 <?php
-} else { 
+} 
+if(!is_user_logged_in()) { 
     echo "<h2>Zaloguj się, aby dodawać posty </h2>";
 }
 
@@ -71,7 +72,7 @@ if(isset($_POST['save'])) {
         $tag2 = $_POST['tag2'];
         $tag3 = $_POST['tag3'];
         $source = $_POST['source'];
-        $expires = $_POST['expires'];
+        $expires = strtotime($_POST['expires']);
         if(isset($_POST['link'])) $link = $_POST['link'];
         if(isset($_POST['paper_title'])) $paper_title = $_POST['paper_title'];
         if(isset($_POST['issue'])) $issue = $_POST['issue'];
